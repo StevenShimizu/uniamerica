@@ -39,6 +39,8 @@ function clearForm() {
   document.getElementById('name').value = '';
   document.getElementById('dob').value = '';
 }
+//Solucao
+window.addEventListener('load', displayUserData);
 
 // Evento de envio do formulário
 document.getElementById('userForm').addEventListener('submit', function (e) {
